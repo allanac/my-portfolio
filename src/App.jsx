@@ -26,9 +26,9 @@ function App() {
       <Contact />
     </main>
     <footer className="py-10 text-center text-sm text-gray-500">
-    &copy; {new Date().getFullYear()} AllanaCodes · Built with React + Tailwind · 
-    <a href="mailto:allanacodes@gmail.com" className="underline ml-1">Contact Me</a>
-    {visits !== numm && (
+      &copy; {new Date().getFullYear()} AllanaCodes · Built with React + Tailwind · 
+      <a href="mailto:allanacodes@gmail.com" className="underline ml-1">Contact Me</a>
+      {visits !== null && (
       <p className="mt-2 text-xs text-gray-400">Visitor Count: {visits}</p>
     )}
     </footer>
