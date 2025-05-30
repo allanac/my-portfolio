@@ -7,8 +7,11 @@ const Projects = () => (
                 <h3 className="text-xl font-semibold mb-2"> Crash Date Forecasting</h3>
                 <p className="text-sm mb-4 leading-relaxed">Predicted market crashes using Yahoo Finance API and ML models in Python.</p>
                 <div className="flex space-x-4 text-sm font-medium">
-                    <a href="github.com/allanac" className="text-purple-600 hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a>
-                    <a href="/Project_1_Yahoo_Finance.pdf" className="text-purple-600 underline" target="_blank" rel="noopener noreferrer">Report</a>
+                    <a href="https://github.com/allanac/my-portfolio/blob/main/project-code/crash_forecasting_code.ipynb" 
+                    className="text-purple-600 hover:underline" 
+                    target="_blank" 
+                    rel="noopener noreferrer">Code</a>
+                    <a href="/my-portfolio/crash_forecasting_report.pdf" className="text-purple-600 underline" target="_blank" rel="noopener noreferrer">Report</a>
                 </div>
             </div>
             
@@ -16,17 +19,17 @@ const Projects = () => (
                 <h3 className="text-xl font-semibold mb-2">Parametric Insurance Model</h3>
                 <p className="text-sm mb-4 leading-relaxed">Forecasted wind risks using ARIMA + GEV on NOAA data (R + Python).</p>
                 <div className="flex space-x-4">
-                    <a href="github.com/allanac" className="text-purple-600 underline">GitHub</a>
-                    <a href="/Wind_Modeling_Final_Project.pdf" className="text-purple-600 underline">Report</a>
+                    <a href="https://github.com/allanac/my-portfolio/blob/main/project-code/parametric_insurance_code.ipynb" className="text-purple-600 underline" target="_blank">Code</a>
+                    <a href="/my-portfolio/parametric_insurance_report.pdf" className="text-purple-600 underline" target="_blank">Report</a>
                 </div>
             </div>
            
             <div className="p-6 bg-white text-gray-800 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-2">Regression Analysis on Student Mental Health</h3>
+                <h3 className="text-xl font-semibold mb-2"> Student Mental Health Analysis</h3>
                 <p className="text-sm mb-4 leading-relaxed">Used Logistic Regression, QDA, LDA, to test and predict student mood based on different factors</p>
                 <div className="flex space-x-4">
-                    <a href="github.com/allanac" className="text-purple-600 underline">GitHub</a>
-                    <a href="/Group1_Final_Report.pdf" className="text-purple-600 underline" target="_blank">Report</a>
+                    <a href="https://github.com/allanac/my-portfolio/blob/main/project-code/student_stress_analysis.R" className="text-purple-600 underline" target="_blank">Code</a>
+                    <a href="/my-portfolio/student_stress_report.pdf" className="text-purple-600 underline" target="_blank">Report</a>
                 </div>
             </div>
 
